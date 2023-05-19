@@ -1,0 +1,23 @@
+.card{
+    border: 1px solid black;
+    width: 18rem;
+    height: 18rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    border-radius: 20px;
+}
+.cardsec{
+    display: flex;
+    justify-content: space-around;
+}
+.details{
+    margin-top: 2rem;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.allemp{
+    display: flex;
+    flex-wrap: wrap;
+}
