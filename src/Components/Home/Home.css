@@ -2,9 +2,10 @@
     border: 1px solid black;
     width: 18rem;
     height: 18rem;
-    margin-left: 2rem;
+    margin-left: 4.5rem;
     margin-top: 5rem;
     border-radius: 20px;
+    background: darkgray;
 }
 .cardsec{
     display: flex;

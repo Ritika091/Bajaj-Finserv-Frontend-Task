@@ -24,7 +24,7 @@ export default function Home() {
                     <p>{data.designation}</p>
                 </div>
                 <p>{data.skills}</p>
-                <button className='details'>Show Details</button>
+              <button className='details'>Show Details</button>
             </div>
 ))}
         </div>
