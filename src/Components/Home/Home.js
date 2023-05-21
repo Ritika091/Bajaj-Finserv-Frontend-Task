@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
-export default function Home() {
+export default function Home({searchData}) {
     const [show,setShow]=useState([]);
     const fetchData=async()=>{
         const res=await fetch('https://raw.githubusercontent.com/dixitsoham7/dixitsoham7.github.io/main/index.json');
@@ -16,7 +16,7 @@ export default function Home() {
     <div className='Home'>
         <div className="allemp">
 
-{show.map((data)=>(
+{searchData(show).map((data)=>(
             <div className="card">
                 <h1>{data.name}</h1>
                 <div className="cardsec">
